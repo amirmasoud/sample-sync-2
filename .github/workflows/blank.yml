@@ -23,7 +23,7 @@ jobs:
       with:
         upstream_repository: amirmasoud/sample-template
         upstream_branch: main
-        target_branch: main
+        target_branch: upcoming
 #         git_pull_args: '--ff --no-edit'
-        git_pull_args: '--allow-unrelated-histories'
+#         git_pull_args: '--allow-unrelated-histories'
         github_token: ${{ secrets.GITHUB_TOKEN }}
