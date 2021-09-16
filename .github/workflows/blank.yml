@@ -24,4 +24,5 @@ jobs:
         upstream_repository: amirmasoud/sample-template
         upstream_branch: main
         target_branch: main
-        github_token: ${{ secrets.GITHUB_TOKEN }}  
+        git_pull_args: '--ff --no-edit'
+        github_token: ${{ secrets.GITHUB_TOKEN }}
